@@ -31,7 +31,12 @@
 예제. SynchronizedBlockExample.java
  
  
+ 3. ReentrantLock (명시적 락 제어)
+ -synchronized보다 더 유연한 명시적 락을 사용할 수 있음.
+ -lock.lock()으로 락을 얻고, lock.unlock()으로 해제해야함.
+ -try-finally를 사용ㅎ여 항상 락을 해제하는것이 중요함
  
+ 예제.ReentrantLock.Example
  
  
  
